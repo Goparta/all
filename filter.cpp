@@ -1,21 +1,6 @@
 #include <iostream>
 
-/*using namespace std;
-
-int main ()
-{
-    int a, b, v, g, d = 3;
-    cout << "Enter 4 figure: ";
-    cin >> a, b, v, g;
-    for ( int i; i < d;  )
-    
-    return 0;
-}*/
-
-
-
 /* Я хочу, щоб програма відсортувала масив чисел */
-
 
 using namespace std;
 
