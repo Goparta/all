@@ -21,9 +21,9 @@ int main()
     }
     // Сортування масиву бульбашкою (За зростанням)
     int x = 0;
-    for (int i = size;  i >= x; i--)
+    for (int i = size - 1; i >= x; i--)
     {
-        for (int j = size; j >= x; j--)    {
+        for (int j = size - 1; j >= x; j--)    {
             if (mas[j] < mas[j-1])    {
                 tmp = mas[j];     //обмін
                 mas[j] = mas[j-1];   //зміними
