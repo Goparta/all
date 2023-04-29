@@ -1,6 +1,21 @@
 #include <iostream>
 
+/*using namespace std;
+
+int main ()
+{
+    int a, b, v, g, d = 3;
+    cout << "Enter 4 figure: ";
+    cin >> a, b, v, g;
+    for ( int i; i < d;  )
+    
+    return 0;
+}*/
+
+
+
 /* Я хочу, щоб програма відсортувала масив чисел */
+
 
 using namespace std;
 
@@ -21,7 +36,7 @@ int main()
     }
     // Сортування масиву бульбашкою (За зростанням)
     int x = 0;
-    for (int i = size - 1; i >= x; i--)
+    for (int i = size - 1;  i >= x; i--)
     {
         for (int j = size - 1; j >= x; j--)    {
             if (mas[j] < mas[j-1])    {
@@ -32,7 +47,7 @@ int main()
                                     }
 
                                             }
-        //x++;
+        x++;
     }
     // виведення відсортованого масиву
     cout << "Виведення відсортованого масиву" << endl;
