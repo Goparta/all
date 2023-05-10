@@ -6,7 +6,6 @@ using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "russian"); 
     const int size = 5;
     int mas[size];
     int tmp;
